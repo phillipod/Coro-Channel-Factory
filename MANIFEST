@@ -1,0 +1,6 @@
+Changes
+Makefile.PL
+MANIFEST
+README
+t/Coro-Channel-Factory.t
+lib/Coro/Channel/Factory.pm
