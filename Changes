@@ -1,5 +1,9 @@
 Revision history for Perl extension Coro::Channel::Factory.
 
+1.01  Wed Oct 15 03:27:34 2014
+    - Issued 1.01 release
+    - Fixed documentation fail
+
 1.00  Wed Oct 15 01:14:37 2014
     - Issued 1.00 release
 

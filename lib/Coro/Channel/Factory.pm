@@ -14,8 +14,8 @@ Coro::Channel::Factory - Factory for named Coro::Channel queues.
   $channel->put($var);
   
   # Interacting directly - no intermediate handle object..
-  $factory ->name('some channel name')->put($other_var);
-  my $item = $factory->('some channel name')->get;
+  $factory->name('some channel name')->put($other_var);
+  my $item = $factory->name('some channel name')->get;
   
 =head1 DESCRIPTION
 
@@ -33,7 +33,7 @@ use warnings;
 
 use Coro;
 
-our $VERSION = '1.00';
+our $VERSION = '1.01';
 
 =head2 API
 

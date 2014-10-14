@@ -18,8 +18,8 @@ SYNOPSIS
    $channel->put($var);
 
    # Interacting directly - no intermediate handle object..
-   $factory ->name('some channel name')->put($other_var);
-   my $item = $factory->('some channel name')->get;
+   $factory->name('some channel name')->put($other_var);
+   my $item = $factory->name('some channel name')->get;
 
 DESCRIPTION
 
